@@ -5,8 +5,9 @@
 
 <template>
   <a href="/employees">Employees list</a>
-  <a href="/">Login</a>
-  <router-view></router-view>
+  <br>
+  <a href="/Prefectures">Prefectures</a>
+  <router-view />
 </template>
 
 <style scoped>
@@ -15,9 +16,11 @@
   padding: 1.5em;
   will-change: filter;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
