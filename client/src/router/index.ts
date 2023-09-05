@@ -10,6 +10,7 @@ const routes: RouteRecordRaw[] = [
     path: "/employees",
     component: Employees
   }
+  // TODO: もう1ページ, ExcludePrefectureListを追加してください
 ]
 export default createRouter({
   history: createWebHistory(),
